@@ -1,0 +1,39 @@
+{
+  "name": "create-to",
+  "version": "0.0.1-alpha.1",
+  "description": "CLI tool to create project",
+  "type": "module",
+  "bin": {
+    "create-to": "bin.js"
+  },
+  "main": "bin.js",
+  "scripts": {
+    "test": "node bin.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": {
+    "name": "mewcoder",
+    "email": "1010953107@qq.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "execa": "^6.1.0",
+    "figlet": "^1.5.2",
+    "inquirer": "^9.0.2",
+    "minimist": "^1.2.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mewcoder/create-to.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mewcoder/create-to/issues"
+  },
+  "homepage": "https://github.com/mewcoder/create-to#readme"
+}
